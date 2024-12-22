@@ -1,22 +1,40 @@
 .menu {
-    padding: 20px;
-    background-color: #f7f7f7;
-    text-align: center;
-  }
-  
-  .menu h2 {
-    font-size: 2rem;
-    color: #4b2e83;
-    margin-bottom: 15px;
-  }
-  
-  .menu ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .menu li {
-    font-size: 1.2rem;
-    margin: 10px 0;
-  }
-  
+  padding: 40px;
+  background-color: #f7f7f7;
+  color: #2c3e50;
+}
+
+.menu-title {
+  text-align: center;
+  color: #4b2e83;
+  margin-bottom: 30px;
+}
+
+.menu-category {
+  margin-bottom: 40px;
+}
+
+.menu-category-title {
+  margin-bottom: 20px;
+  color: #7f5539;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  transition: transform 0.3s;
+}
+
+.menu-item-card:hover {
+  transform: scale(1.05);
+}
+
+.menu-price {
+  color: #7f5539;
+  font-weight: bold;
+}
