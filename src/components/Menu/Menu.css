@@ -1,0 +1,22 @@
+.menu {
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .menu h2 {
+    font-size: 2rem;
+    color: #4b2e83;
+    margin-bottom: 15px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  

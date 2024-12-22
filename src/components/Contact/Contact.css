@@ -1,0 +1,16 @@
+.contact {
+    padding: 30px;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    color: #4b2e83;
+  }
+  
+  .contact p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
